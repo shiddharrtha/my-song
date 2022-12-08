@@ -10,6 +10,10 @@ public class Song {
         this.duration = duration;
     }
 
+    public String getArtist(){
+        return artist;
+    }
+
     public void createLyrics (String verse) {
         lyrics = verse;
     }
